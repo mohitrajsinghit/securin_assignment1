@@ -112,7 +112,7 @@ A comprehensive CVE tracking application that utilizes the NVD CVE API to fetch,
 
 ---
 
-## API Documentation 🔖
+## API Documentation 
 
 ### Endpoints:
 
@@ -129,12 +129,6 @@ Query Parameters:
 #### 3. Filter CVEs
 **GET** `/api/cves/filter`
 
-Query Parameters:
-- `year`
-- `score`
-- `lastModified`
-
----
 
 ## Technologies Used 🚀
 
@@ -154,22 +148,26 @@ Query Parameters:
 
 ---
 
-## Screenshots 🟟
+## Frontend UI 
+Page-1
+![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/29b7d099aa8ed48866fbf9685ea549433e4d39d5/images/page1.png)
 
-![image](https://github.com/user-attachments/assets/50b648ed-fefa-46fb-aa71-49e67b9412e2)
-
-![image](https://github.com/user-attachments/assets/a3ec79fe-526b-4f11-8116-dcbde891b7f5)
-
-
-![image](https://github.com/user-attachments/assets/b19b3e2e-72b2-4e21-8ba5-d3aa95af1a51)
+Page-2
+![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/29b7d099aa8ed48866fbf9685ea549433e4d39d5/images/page2.png)
 
 
-## Testing 💖
-Testing-1 API is working or not using POSTMAN: 
+## VSCode Screenshot 
+
+![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/29b7d099aa8ed48866fbf9685ea549433e4d39d5/images/f1.png)
+
+![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/29b7d099aa8ed48866fbf9685ea549433e4d39d5/images/f2.png)
+
+## Testing
+Testing-1 API is tested using POSTMAN: 
 Filtered data on http://localhost:5000/api/cves
 ![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/1ae945e30e70ffa3fc3006abb7b7aa0747a895d8/images/test1.png)
 
-Data of selected CVE:
+Testing-2 Details of selected CVE LIST:
 ![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/1ae945e30e70ffa3fc3006abb7b7aa0747a895d8/images/test2.png)
 
 
@@ -181,7 +179,7 @@ Data of selected CVE:
 
 ---
 
-## Contact 📬
+## Contact
 For questions or support, please reach out to:
 - **📧 Email**: [mohitrajsingh2601@gmail.com](mohitrajsingh2601@gmail.com)
 - **🔗 LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/workwithmohiit/)
