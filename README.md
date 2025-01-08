@@ -105,6 +105,7 @@ Query Parameters:
 - MongoDB Atlas
 
 ### Others:
+- POSTMAN - Backend Testing
 - NVD CVE API
 - Mongoose
 - Axios
