@@ -7,6 +7,8 @@ The CVE API is used to easily retrieve information on a single CVE or a collecti
  https://nvd.nist.gov/developers/vulnerabilities
 
  [Click here to watch the project demo video](https://github.com/mohitrajsinghit/securin_assignment1/blob/06e7768602050dff06e5fe59e978e0803f13a28f/images/Project_Demo_Video.mp4)
+
+if the video is not working the please download from the link and watch :)
 ---
 
 ## Features
