@@ -54,8 +54,11 @@ The CVE API is used to easily retrieve information on a single CVE or a collecti
 3. Add `.env` file with the following variables:
    ```env
    PORT=5000
-   MONGO_URI=mongodb://localhost:27017/cve-tracker
+   MONGO_URI=mongodb+srv://125015014:<FOR-THE-PASS-USE-SAME-AS-USERID>@cluster0.huwpscz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
    NVD_API=https://services.nvd.nist.gov/rest/json/cves/2.0
+
+   if any issues please contact me 
+   📧 Email - mohitrajsingh2601@gmail.com
    ```
 4. Start the server:
    ```bash
