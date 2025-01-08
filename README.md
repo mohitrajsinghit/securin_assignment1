@@ -6,10 +6,10 @@ The CVE API is used to easily retrieve information on a single CVE or a collecti
 
  https://nvd.nist.gov/developers/vulnerabilities
 
-
+ [Click here to watch the project demo video](https://github.com/mohitrajsinghit/securin_assignment1/blob/06e7768602050dff06e5fe59e978e0803f13a28f/images/Project_Demo_Video.mp4)
 ---
 
-## Features 📊
+## Features
 
 1. **API Integration:**
    - Fetch CVE data from the [NVD CVE API](https://services.nvd.nist.gov/rest/json/cves/2.0).
@@ -68,7 +68,7 @@ The CVE API is used to easily retrieve information on a single CVE or a collecti
 
 ---
 
-## Usage 🕹
+## Usage
 
 ### Routes:
 - **List CVEs:** `/cves/list`
