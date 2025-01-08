@@ -163,25 +163,18 @@ Query Parameters:
 
 ![image](https://github.com/user-attachments/assets/b19b3e2e-72b2-4e21-8ba5-d3aa95af1a51)
 
-Testing API is working or not using POSTMAN: 
+
+## Testing 💖
+Testing-1 API is working or not using POSTMAN: 
 Filtered data on http://localhost:5000/api/cves
-![image](https://github.com/user-attachments/assets/742588d3-09be-4156-a7a8-b55a1194d8f7)
+![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/1ae945e30e70ffa3fc3006abb7b7aa0747a895d8/images/test1.png)
 
 Data of selected CVE:
-![image](https://github.com/user-attachments/assets/c8da1906-a289-4966-9a46-85bc47c398a6)
+![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/1ae945e30e70ffa3fc3006abb7b7aa0747a895d8/images/test2.png)
 
 
 
-
----
-
-## Contributing 🙌
-
-Contributions are welcome! Feel free to submit a pull request or open an issue.
-
----
-
-## Acknowledgments 💖
+## Acknowledgments
 
 - [NVD CVE API Documentation](https://nvd.nist.gov/developers/vulnerabilities)
 - Open source contributors
@@ -190,9 +183,8 @@ Contributions are welcome! Feel free to submit a pull request or open an issue.
 
 ## Contact 📬
 For questions or support, please reach out to:
-- **📧 Email**: [sahilsinghm32@gmail.com](sahilsinghm32@gmail.com)
-- **🔗 LinkedIn**: [User's LinkedIn Profile](https://www.linkedin.com/in/sahil-singh-ss9824/)
+- **📧 Email**: [mohitrajsingh2601@gmail.com](mohitrajsingh2601@gmail.com)
+- **🔗 LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/workwithmohiit/)
 
 ---
 
-Happy Coding! 🚀
