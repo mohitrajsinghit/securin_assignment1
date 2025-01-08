@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  border-radius: 24px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+th:first-child, td:first-child {
+  width: 140px;
+  text-align: center;
+}
+th, td {
+  font-weight: 300;
+}
+
+th, td {
+  border: 2px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.cve-container {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cve-title {
+  color: #343a40;
+  font-weight: 500;
+}
+
+.total-records {
+  font-size: 1.2em;
+  color: #6c757d;
+}
+
+.loader .spinner-border {
+  color: #12ac93;
+}
+
+.cve-row:hover {
+  background-color: #f1f1f1;
+}
+
+.cve-row td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.pagination-buttons .btn {
+  width: 150px;
+  font-size: 1em;
+}
+
+.pagination-buttons .prev-button:disabled,
+.pagination-buttons .next-button:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn.btn-primary.prev-button, 
+.btn.btn-primary.next-button {
+  background-color: #12ac93;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-primary.prev-button:hover, 
+.btn.btn-primary.next-button:hover {
+  background-color: #0f9078;
+}
+
+.btn.btn-primary.prev-button:disabled, 
+.btn.btn-primary.next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
