@@ -57,6 +57,7 @@ The CVE API is used to easily retrieve information on a single CVE or a collecti
    MONGO_URI=mongodb+srv://125015014:<FOR-THE-PASS-USE-SAME-AS-USERID>@cluster0.huwpscz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
    NVD_API=https://services.nvd.nist.gov/rest/json/cves/2.0
 
+   Since you need to access the records from my database where have to give my mongo_uri_api (once this assignmnt is completed it will be successfully deleted)
    if any issues please contact me 
    📧 Email - mohitrajsingh2601@gmail.com
    ```
