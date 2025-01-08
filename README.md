@@ -1,6 +1,11 @@
-# 🌐 CVE LIST
+# 🌐 CVE LIST ASSIGNMENT
 
-A comprehensive CVE tracking application that utilizes the NVD CVE API to fetch, store, and visualize CVE data. This project ensures data quality through cleansing and de-duplication and offers an intuitive user interface for seamless interaction. 
+The CVE API is used to easily retrieve information on a single CVE or a collection of
+ CVE from the NVD. Pls refer to the below NVD CVE documentation to get more
+ information.
+
+ https://nvd.nist.gov/developers/vulnerabilities
+
 
 ---
 
@@ -12,61 +17,35 @@ A comprehensive CVE tracking application that utilizes the NVD CVE API to fetch,
 
 2. **Database Synchronization:**
    - Periodically sync CVE data into the database.
-   - Supports both full data refresh and incremental updates.
+   - It Supports both full data refresh and incremental updates.
 
-3. **Search & Filter:**
-   - Filter CVEs by:
-     - **CVE ID**
-     - **Last modified in N days**
-     - etc..
-
-4. **Interactive UI:**
-   - Display results in a tabular format with pagination and sorting.
+3. **Interactive UI:**
+   - Display results in a tabular format with pagination.
    - Options for selecting results per page (10, 50, 100).
-   - View detailed information on clicking a CVE row.
-
-5. **Error Handling:**
-   - Handles API call failures and displays appropriate error messages.
-
-6. **Code Quality:**
-   - Follows best practices and standards.
-   - Includes unit tests for critical functionalities.
-
+   - Detailed information on clicking a CVE row.
 ---
 
-## Project Structure 🗂
+## launch this Project
 
-### Backend:
-- **Server:** `server.js`
-- **Routes:** `routes/cveRoutes.js`
-- **Models:** `models/Cve.js`
-- **Services:** `services/syncService.js`
-- **Database Configuration:** `config/db.js`
-
-### Frontend:
-- **React Components:**  [Using React over just using HTML, CSS, and JavaScript because it provides a structured framework for building complex web applications, enabling easier component reusability, efficient state management, and optimized performance through features like the virtual DOM, making it significantly better for managing large and dynamic web interfaces compared to writing raw HTML, CSS, and JavaScript code.]
-  - `App.js` (Main application logic)
-  - `CveDetail.js` (Detailed CVE view)
-- **Styling:** Bootstrap-based responsive design.
-- **Pagination and Sorting:** Server-side and client-side integrated.
-
----
-
-## Prerequisites 🔨
-
-1. **Node.js** (v14 or higher)
-2. **MongoDB**
-3. **NPM** or **Yarn**
-
----
-
-## Installation 🚀
+### React-Frontend:
+1. Navigate to the frontend directory:
+   ```bash
+   cd ../react-frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the React app:
+   ```bash
+   npm start
+   ```
 
 ### Backend:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Sahil0502/NVD---CVE-API.git
-   cd cve-tracker/backend
+   git clone https://github.com/mohitrajsinghit/securin_assignment1.git
+   cd Assignment1/backend
    ```
 2. Install dependencies:
    ```bash
@@ -83,20 +62,6 @@ A comprehensive CVE tracking application that utilizes the NVD CVE API to fetch,
    npm start
    ```
 
-### Frontend:
-1. Navigate to the frontend directory:
-   ```bash
-   cd ../frontend
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the React app:
-   ```bash
-   npm start
-   ```
-
 ---
 
 ## Usage 🕹
@@ -104,11 +69,6 @@ A comprehensive CVE tracking application that utilizes the NVD CVE API to fetch,
 ### Routes:
 - **List CVEs:** `/cves/list`
 - **View CVE Details:** `/cves/:cveId`
-
-### UI Features:
-- View and paginate through CVE records.
-- Filter data by various parameters.
-- Click on a row to view detailed CVE information.
 
 ---
 
@@ -130,22 +90,21 @@ Query Parameters:
 **GET** `/api/cves/filter`
 
 
-## Technologies Used 🚀
-
-### Backend:
-- Node.js
-- Express.js
-- MongoDB
+## Tech Used 
 
 ### Frontend:
 - React.js
 - Bootstrap
 
+### Backend:
+- Node.js
+- Express.js
+- MongoDB Atlas
+
 ### Others:
 - NVD CVE API
 - Mongoose
 - Axios
-
 ---
 
 ## Frontend UI 
@@ -168,6 +127,7 @@ Filtered data on http://localhost:5000/api/cves
 ![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/1ae945e30e70ffa3fc3006abb7b7aa0747a895d8/images/test1.png)
 
 Testing-2 Details of selected CVE LIST:
+http://localhost:5000/api/cves/CVE-1999-1467
 ![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/1ae945e30e70ffa3fc3006abb7b7aa0747a895d8/images/test2.png)
 
 
