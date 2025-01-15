@@ -129,6 +129,22 @@ Page-2
 
 ![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/29b7d099aa8ed48866fbf9685ea549433e4d39d5/images/f2.png)
 
+
+## Fitering
+Filtering-1 Data is filtered by using CVEID:
+![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/9585d3f76a6a0e832296f7a5157e27df2217fc36/images/filter_cveid.png)
+
+Filtering-2 By Sorting in Ascending Order:
+![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/9585d3f76a6a0e832296f7a5157e27df2217fc36/images/filter_sort.png)
+
+
+## Pagination
+Pagination
+![image](https://github.com/mohitrajsinghit/securin_assignment1/blob/9585d3f76a6a0e832296f7a5157e27df2217fc36/images/pagination.png)
+
+
+
+
 ## Testing
 Testing-1 API is tested using POSTMAN: 
 Filtered data on http://localhost:5000/api/cves
