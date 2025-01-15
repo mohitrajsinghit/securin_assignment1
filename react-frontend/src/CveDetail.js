@@ -47,8 +47,6 @@ const CveDetail = () => {
                                 <br />
                                 <strong>Vector String:</strong> {cveData.metrics.cvssMetricV2[0].cvssData.vectorString || "N/A"}</p>
                             </div>
-
-
                         </section>
                         {cveData.metrics.cvssMetricV2.map((metric, index) => (
                            <table key={index} style={{ width: '100%', border: '2px solid black', marginBottom: '20px', borderCollapse: 'collapse' }}>

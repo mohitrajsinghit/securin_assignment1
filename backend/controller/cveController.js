@@ -24,6 +24,7 @@ const getCves = async (req, res) => {
     res.status(500).json({ message: 'Error in fetching CVE', error: error.message });
   }
 };
+
 //fetching data by its id
 const getCveById = async (req, res) => {
   const { cveId } = req.params;
